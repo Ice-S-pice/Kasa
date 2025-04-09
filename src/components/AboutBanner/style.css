@@ -1,0 +1,32 @@
+.wh-msk {
+    background: #f7f7f7;
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 769px) {
+    .wh-msk {
+      border-radius: 25px;
+    }
+  }
+  
+  .aboutBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3) url(/img/mobile-about-background.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 223px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 769px) {
+    .aboutBackground {
+      background: rgba(0, 0, 0, 0.3) url(/img/about-background.png);
+      background-blend-mode: darken;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 25px;
+    }
+  }

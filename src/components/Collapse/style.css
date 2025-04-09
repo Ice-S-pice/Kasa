@@ -1,0 +1,117 @@
+.collapse {
+    width: 100%;
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .collapse {
+        margin: 31px auto 0;
+    }
+}
+
+.collapse__visible {
+    background: #FF6060; /* $primary-color */
+    color: #fff; /* $tertiary-color */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .collapse__visible {
+        height: 47px;
+    }
+}
+
+.collapse__visible h2 {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .collapse__visible h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.collapse__toggle {
+    opacity: 0;
+    background: #f6f6f6; 
+    border-radius: 5px;
+    transition: opacity 0.4s ease-in-out, height 0.4s 0.4s ease-in-out;
+}
+
+.collapse__toggle p {
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+    .collapse__toggle p {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+.animated {
+    opacity: 1;
+    transition: height 0.4s ease-in-out, opacity 0.4s 0.4s ease-in-out;
+}
+
+.chevron {
+    width: 9px;
+    transform: rotate(0deg);
+    transition: 0.4s 0.4s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+    .chevron {
+        width: 15px;
+    }
+}
+
+.rotated {
+    transform: rotate(180deg);
+    transition: 0.4s ease-in-out;
+}
+
+.about-style {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-style {
+        width: 87.5%;
+    }
+}
+
+.collapse-fiche-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .collapse-fiche-container {
+        flex-direction: row;
+        gap: 6%;
+    }
+}
+
+.equipList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
