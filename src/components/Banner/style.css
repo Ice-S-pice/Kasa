@@ -18,13 +18,13 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3); /* noir transparent */
+  background: rgba(0, 0, 0, 0.3); 
   z-index: 1;
   border-radius: inherit;
 }
 
 .banner-text {
-  position: relative; /* pour passer au-dessus du ::before */
+  position: relative; 
   z-index: 2;
   font-size: 24px;
   font-weight: 500;

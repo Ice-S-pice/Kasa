@@ -13,7 +13,7 @@ export default function tarif({ score }) {
 						src={fullStar}
 						alt="rating star"
 					/>
-				) : ( //affichage les étoiles du score, pleine ou vide selon le score passé en props
+				) : ( 
 					<img
 						key={level.toString()}
 						className="star"

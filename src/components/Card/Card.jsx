@@ -1,5 +1,5 @@
 import './style.css'
-export default function Card({ cover, title }) { //les cartes de locations prennent les images et titres en props depuis Home
+export default function Card({ cover, title }) { 
 	return (
 		<article className="card-logement">
 			<img src={cover} alt="location" />
